@@ -36,7 +36,7 @@
     },
     {
       "name": "dispensing-dashboard",
-      "slot": "dispensing-dashboard-slot",
+      "slot": "poc-pharmacy-dashboard-slot",
       "component": "dispensingDashboard",
       "online": true,
       "offline": true
@@ -46,7 +46,7 @@
       "component": "dispensingDashboardLink",
       "meta": {
         "name": "dispensing",
-        "slot": "dispensing-dashboard-slot",
+        "slot": "poc-pharmacy-dashboard-slot",
         "title": "Dispensing"
       }
     },

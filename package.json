@@ -8,6 +8,7 @@
   "source": true,
   "scripts": {
     "start": "openmrs develop",
+    "dev": "openmrs develop --backend=https://staging.ampath.or.ke --api-url=/openmrs --config-url=https://ngx.ampath.or.ke/o3-config.json --port=9000",
     "serve": "webpack serve --mode=development",
     "build": "webpack --mode production",
     "analyze": "webpack --mode=production --env.analyze=true",
@@ -33,14 +34,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openmrs/openmrs-esm-pharmacy.git"
+    "url": "git+https://github.com/AMPATH/ampath-esm-pharmacy-app.git"
   },
-  "homepage": "https://github.com/openmrs/openmrs-esm-dispensing#readme",
+  "homepage": "https://github.com/AMPATH/ampath-esm-pharmacy-app#readme",
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/openmrs/openmrs-esm-dispensing/issues"
+    "url": "https://github.com/AMPATH/ampath-esm-pharmacy-app/issues"
   },
   "dependencies": {
     "@carbon/react": "^1.83.0",
